@@ -4,9 +4,9 @@ import autoprefixer from 'autoprefixer'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/',
+  base: '/hb10/',
   build: {
-    outDir: 'docs',
+    outDir: 'dist',
     assetsDir: 'assets',
     rollupOptions: {
       output: {
